@@ -1,0 +1,2 @@
+/*Select Even Number IDs and remove duplicates*/
+select station.city from STATION where mod(station.ID,2)=0 group by station.city;
